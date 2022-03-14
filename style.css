@@ -16,7 +16,7 @@ margin-top:40px;
 background-color:white;
 text-align:center;
 color:olive;
-
+font-family:cursive;
 
 }
 .img2{
@@ -25,7 +25,7 @@ margin-top:60px;
 background-color:white;
 text-align:center;
 color:teal;
-
+font-family:cursive;
 
 }
 .img3{
@@ -34,8 +34,7 @@ margin-top:60px;
 background-color:white;
 text-align:center;
 color:fuchsia;
-
-
+font-family:cursive;
 
 }
 .img4{
@@ -44,7 +43,7 @@ margin-top:60px;
 background-color:white;
 text-align:center;
 color:navy;
-
+font-family:cursive;
 
 }
 .img5{
@@ -53,7 +52,7 @@ margin-top:60px;
 background-color:white;
 text-align:center;
 color:gray;
-
+font-family:cursive;
 
 }
 .img6{
@@ -62,7 +61,7 @@ margin-top:60px;
 background-color:white;
 text-align:center;
 color:maroon;
-
+font-family:cursive;
 
 }
 .h{
@@ -105,14 +104,14 @@ div h6 img{
 border-style:hidden;
 padding:10px;
 border-radius:90%;
-height:auto;
+height:40px;
 width:10%;
 
 }
 div h4 img{
 border-style:hidden;
 border-radius:100%;
-height:auto;
+height:40px;
 width:10%;
 padding:3px;
 background-color:maroon;
