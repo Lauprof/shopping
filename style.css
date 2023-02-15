@@ -144,17 +144,8 @@ padding-left:20px;
 
 
 }
-div h6 img{
-border-style:hidden;
-padding:10px;
-border-radius:90%;
-height:80px;
-position: relative;
-width:20%;
-float: left;
 
-}
-img::after{
+div h4 img::after{
   content: "";
   clear: left;
   display: block;
@@ -254,4 +245,21 @@ input[type=submit]{
     color: wheat;
     border:1px solid lightpink;
     border-radius: 10px;
+}
+@media screen and (min-width:788px){
+  footer{
+    font-size: 3.2rem;
+  }
+  div h4 img{
+    height:100px;
+    border-radius: none;
+    width: 10%;
+  }
+  .fdk{
+    font-size: 25px;
+  }
+  .img1,.img3,.img2,.img4,.img5,.img6{
+    font-size: 2.5rem;
+    padding: 14px;
+  }
 }
