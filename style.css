@@ -1,10 +1,31 @@
+*{
+  padding:0px; 
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+#video{
+  width: 100%;
+}
+#video video{
+  width: 100%;
+  height:100%;
+}
+#time{
+  color:red;
+  font-style: 20px;
+  text-align: end;
+  padding: 12px;
+  font-family: 'Caveat';
+}
 div h1{
 background-color:#22ffbb;
 text-align:center;
 height:70px;
 margin:0;
 padding-top:30px;
-font-family:cursive;
+font-family:'Itim';
 
 
 
@@ -15,8 +36,10 @@ border-style:solid;
 margin-top:40px;
 background-color:white;
 text-align:center;
+box-shadow: 4px 5px 15px black;
+border-radius: 10px;
 color:olive;
-font-family:cursive;
+font-family:'Itim';
 
 }
 .img2{
@@ -25,49 +48,60 @@ margin-top:60px;
 background-color:white;
 text-align:center;
 color:teal;
-font-family:cursive;
+box-shadow: 4px 5px 15px lightblue;
+border-radius: 10px;
+font-family:'Itim';
 
 }
 .img3{
 border-style:solid;
 margin-top:60px;
 background-color:white;
+box-shadow: 4px 5px 15px red;
+border-radius: 10px;
 text-align:center;
 color:fuchsia;
-font-family:cursive;
+font-family:'Itim';
 
 }
 .img4{
 border-style:solid;
 margin-top:60px;
 background-color:white;
+box-shadow: 4px 5px 15px teal;
+border-radius: 10px;
 text-align:center;
 color:navy;
-font-family:cursive;
+font-family:"Itim";
 
 }
 .img5{
 border-style:solid;
 margin-top:60px;
 background-color:white;
+box-shadow: 4px 5px 15px pink;
+border-radius: 10px;
 text-align:center;
 color:gray;
-font-family:cursive;
+font-family:'Itim';
 
 }
 .img6{
 border-style:solid;
 margin-top:60px;
 background-color:white;
+box-shadow: 4px 5px 19px purple;
+border-radius: 10px;
 text-align:center;
 color:maroon;
-font-family:cursive;
+font-family:'Itim';
 
 }
 .h{
-font-family:Courier new,monospace;
-font-size:14px;
+font-family:'Itim';
+font-size:18px;
 text-align:center;
+padding: 15px;
 background-color:aqua;
 animation-name: example;
 animation-duration: 4s;
@@ -80,13 +114,23 @@ animation-iteration-count: infinite;
 100% {background-color: green;}
 }
 .fdk{
-font-family:Courier new,monospace;
-background-color:aqua;
+position:relative;
+width: 100%;
+height: 150px;
+padding: 20px;
+border:1px solid lightblue;
+margin: auto auto;
+margin-top: 10px;
+font-family: 'Caveat', Times, serif;
+box-shadow: 4px 5px 15px black;
+border-radius: 10px;
+box-sizing: border-box;
 
 }
 .fedk{
 text-align:center;
-text-shadow:2px 2px green;
+text-shadow:1px 1px red;
+font-family: Courier;
 
 }
 
@@ -104,43 +148,110 @@ div h6 img{
 border-style:hidden;
 padding:10px;
 border-radius:90%;
-height:40px;
-width:10%;
+height:80px;
+position: relative;
+width:20%;
+float: left;
 
+}
+img::after{
+  content: "";
+  clear: left;
+  display: block;
 }
 div h4 img{
 border-style:hidden;
 border-radius:100%;
-height:40px;
-width:10%;
-padding:3px;
-background-color:maroon;
+height:80px;
+width:30%;
+float: left;
+padding:6px;
+
 
 }
-.fbk{
 
-background-color:fuchsia;
-font-family:Courier new,monospace;
-padding:5px;
-
-}
-div form{
-background-color:gray;
-border-style:inset;
-padding:40px;
-margin-left:30px;
-color:aqua;
-font-family:Courier new,monospace;
-}
 footer{
 text-align:center;
-font-family:Courier new,monospace;
-background-color:olive;
-color:aqua;
+font-family:'Itim';
+font-size: 25px;
+color:red;
+
+background-color:#56ccdd;
 
 
+
+}
+footer p{
+  color: red;
 }
 li{
 list-style:none;
 
+}
+input[type=text],input[type=email],input[type=number],input[type=password]{
+
+
+
+border: none;
+border-bottom: solid;
+border-bottom-color: lightblue;
+width: 60%;
+
+
+}
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    color: hotpink;
+    padding: 10px;
+}
+textarea{
+    width: 80%;
+    padding: 10px;
+    box-shadow: 5px 6px 6px 5px pink;
+    border-radius: 10px;
+    
+}
+input[type=text]:focus{
+    border: none;
+    outline: none;
+    border-bottom: solid;
+  border-bottom-color: orchid;
+}
+input[type=number]:focus{
+    border: none;
+    outline: none;
+    border-bottom: solid;
+border-bottom-color: blueviolet;
+}
+input[type=password]:focus{
+    border: none;
+    outline: none;
+    border-bottom: solid;
+border-bottom-color: red;
+}
+input[type=email]:focus{
+    border: none;
+    outline: none;
+    border-bottom: solid;
+   border-bottom-color: aqua;
+}
+
+form{
+    font-family: 'Trebuchet MS';
+    padding:10px;
+    border:1px solid lightpink;
+    border-radius: 10px;
+   
+}
+textarea:focus{
+    border: 1px solid lightsalmon;
+    outline: none;
+    box-shadow: 5px 3px 3px 15px lightcyan;
+}
+input[type=submit]{
+    padding: 15px;
+    background-color: crimson;
+    color: wheat;
+    border:1px solid lightpink;
+    border-radius: 10px;
 }

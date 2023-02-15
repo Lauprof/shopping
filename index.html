@@ -4,19 +4,27 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width ,initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Itim&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div id="video">
 <video width="100%" height="270"  autoplay muted controls loop>
   <source src="tatiana.mp4" type="video/mp4">
   <source src="" type="video/ogg">
 Your browser does not support the video tag.
 </video>
-
+</div>
+<p id="time"></p>
 <script type="text/javascript">
-var x=new Date().toDateString();
-document.write(x);
+
+setInterval(times,1000);
+function times(){
+ let timed = document.getElementById('time');
+let x= new Date();
+timed.innerHTML = x.toDateString() + " " + x.toLocaleTimeString();
 
 
+}
 </script>
 <p class="h"><b>ORDER NOW CALL 0759924783</b></p>
 
@@ -127,7 +135,7 @@ document.write(x);
 <li><b>ARCHITECHURE 64 Bit microprocessor</b>
 <li><b>CONNECTIVITY 5G,OTG,WIFI,BLUETOOTH,RADIO</b></li>
 </ul>
-</div>
+</div><br><br><br>
 
 <article>
 
@@ -143,7 +151,7 @@ document.write(x);
 </ul>
 
 
-</article><br><hr>
+</article><br><hr><br><br>
 
 <div class="fedk">
 <h3>FEEDBACK</h3>
@@ -156,21 +164,18 @@ document.write(x);
 </div>
 
 
-<div class="fbk">
+<div class="fdk">
 <h4><img src="IMG_20211210_141813_499_transcpr.jpg">lawrence8@gmail.com</h4>
 <p>The delivery was on time,thanks.</p>
 
 </div>
 <br>
-<p class="h"><b>ORDER NOW CALL 0759924783</b></p><br>
-<p class="h"><b>email:lawrencemburia8@gmail.com</b></p>
-
+<center>
 <div>
-
 <form action="" method="post">
 <label>Name</label><br>
 <input type="text" name="text" value=""><br><br><br>
-<label>Feedback</label><br>
+<label>Feedback</label><br><br><br>
 <textarea name="message" rows="10"
 cols="30">
 
@@ -187,12 +192,13 @@ cols="30">
 
 
 </div>
+</center>
 
 <footer>
 <p>Powered by Github</p>
 <p>Designed</p>
-<h6>By lawrence</h6>
-<p>© 2022</p>
+<p>By lawrence</p>
+<p>&COPY; 2022</p>
 
 </footer>
 
